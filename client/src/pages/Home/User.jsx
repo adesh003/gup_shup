@@ -3,7 +3,7 @@ import React from "react";
 const User = () => {
   return (
     <div className="flex items-center">
-      <div className="avatar avatar-online px-3 mb-2">
+      <div className="avatar avatar-online px-1 mb-2">
         <div className="w-13 rounded-full">
           <img src="https://img.daisyui.com/images/profile/demo/gordon@192.webp" />
         </div>

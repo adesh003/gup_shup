@@ -14,16 +14,25 @@ const MessageContainer = () => {
       {/* Messages area - grows to fill space */}
       <div className="flex-1 overflow-y-auto mt-5 p-4">
         <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
       </div>
 
       {/* Input box fixed at bottom */}
+
       <div className="p-3 border-t border-t-white/10">
-        <input
-          type="text"
-          placeholder="Type a message..."
-          className="input input-primary w-full"
-        />
-        <IoSend></IoSend>
+        <div className="flex items-center gap-2">
+          <input
+            type="text"
+            placeholder="Type a message..."
+            className="input input-primary flex-1"
+          />
+            <button className="btn btn-primary">
+      <IoSend size={20} />
+    </button>
+        </div>
       </div>
     </div>
   );
